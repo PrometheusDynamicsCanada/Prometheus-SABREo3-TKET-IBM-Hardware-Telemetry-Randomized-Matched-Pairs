@@ -1,0 +1,16 @@
+{
+  "experiment_title": "Prometheus Randomized Inflection Boundary Benchmark",
+  "benchmark_design": "Matched-Pair Randomized Instances (QAOA, CrossEnt)",
+  "logical_circuit_count": 40,
+  "total_hardware_executions": 120,
+  "shots_per_execution": 4096,
+  "compilers_evaluated": [
+    "SABRE_O3",
+    "TKET",
+    "PROMETHEUS"
+  ],
+  "target_backend": "ibm_marrakesh",
+  "semantic_verification": "Exact Active Physical Statevector Inverse Mapping",
+  "routing_policy": "Compiler Specific",
+  "translation_policy": "Common Basis Translation Only (Edge-Preserving)"
+}
