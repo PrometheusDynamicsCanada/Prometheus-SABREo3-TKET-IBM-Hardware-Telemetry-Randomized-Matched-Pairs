@@ -304,21 +304,3 @@ The repository should therefore be read as an empirical hardware telemetry datas
 
 ## 15. Independent Verification
 The repository is designed to minimize the amount of trust required in the Prometheus implementation. The routing heuristics are not distributed. Instead, reviewers can inspect the resulting artifacts.
-
-### Available Artifacts
-```text
-/data/
-    telemetry
-    summaries
-    raw counts
-
-/circuits/
-    logical instances
-    routed circuits
-    native translated circuits
-    execution payloads
-
-/scripts/
-    telemetry extraction
-    metric calculation
-    verification utilities
